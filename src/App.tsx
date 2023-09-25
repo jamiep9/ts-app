@@ -11,14 +11,13 @@ const App: React.FC = () => (
     </div>
     <RoutePaths />
     <Footer style={{ 
-            borderTop: '1px solid #e8e8e8',
+            borderTop: '1px solid #bac7d1',
             left: 0,
             bottom: 0,
             width: '100%',
-            backgroundColor: 'white',
-            textAlign: 'center'}}
+            backgroundColor: '#d3dce3'}}
           >
-            Ant Design ©2018 Created by Ant UED
+            ©2023 Jamie Poole
           </Footer>
   </div>
 );
