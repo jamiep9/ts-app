@@ -9,8 +9,20 @@
 }
 
 .profileImageDiv {
-  margin: 50px 10px 20px 10px;
+  margin: 0px 10px 0px 10px;
   transform: translate(20%, 0%);
+}
+
+.skillsDiv {
+  transform: translate(20%, 0%);
+}
+
+.skillsButton {
+  font-size: 25px;
+  margin: 5px;
+  color: #000000;
+  background-color: #d3dce3;
+  pointer-events: none;
 }
 
 h1 {
