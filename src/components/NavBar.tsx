@@ -3,36 +3,9 @@ import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/ico
 import type { MenuProps } from 'antd';
 import { Menu } from 'antd';
 import { useNavigate } from 'react-router-dom';
+import "./NavBar.css";
 
 export const NavBar: React.FC = () => {
-    const items: MenuProps['items'] = [
-        {
-          label: 'Home',
-          key: '/',
-          icon: <MailOutlined />,
-        },
-        {
-          label: 'Experience',
-          key: '/experience',
-          icon: <AppstoreOutlined />,
-        },
-        {
-          label: 'Projects',
-          key: '/projects',
-          icon: <SettingOutlined />,
-        },
-        {
-            label: 'For Fun',
-            key: '/fun',
-            icon: <AppstoreOutlined />,
-        },
-        {
-            label: 'Contact',
-            key: '/contact',
-            icon: <AppstoreOutlined />,
-        },
-    ];
-
     const [current, setCurrent] = useState('/');
     const navigate = useNavigate();
 
@@ -41,7 +14,27 @@ export const NavBar: React.FC = () => {
         navigate(e.key);
     };
 
-    return <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />;
+    return (
+        <div className="navBarDiv">
+            <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" style={{backgroundColor:'#c3d9e6'}}>
+                <Menu.Item key='/' style={{marginRight:'100px'}}>
+                    HOME
+                </Menu.Item>
+                <Menu.Item key='/experience' style={{marginRight:'100px'}}>
+                    EXPERIENCE
+                </Menu.Item>
+                <Menu.Item key='/projects' style={{marginRight:'100px'}}>
+                    PROJECTS
+                </Menu.Item>
+                <Menu.Item key='/fun' style={{marginRight:'100px'}}>
+                    FOR FUN
+                </Menu.Item>
+                <Menu.Item key='/contact'>
+                    CONTACT
+                </Menu.Item>
+            </Menu>
+        </div>
+    );
 
 }
 

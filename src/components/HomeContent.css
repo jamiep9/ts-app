@@ -1,0 +1,56 @@
+.aboutCard {
+  width: 875px;
+  transform: translate(50%, 0%);
+  padding: 10px;
+}
+
+.profileImage {
+  border-radius: 25px;
+}
+
+.profileImageDiv {
+  margin: 50px 10px 20px 10px;
+  transform: translate(20%, 0%);
+}
+
+h1 {
+  font-size: 75px;
+  color: #507991;
+}
+
+h2 {
+  color: #253d4b;
+}
+
+#float {
+  position: relative;
+  -webkit-animation: floatBubble 1.5s;
+  animation: floatBubble 1.5s;
+}
+
+#float2 {
+  position: relative;
+  -webkit-animation: floatBubble 2s;
+  animation: floatBubble 2s;
+}
+
+@-webkit-keyframes floatBubble {
+  0% {
+    top:500px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+@keyframes floatBubble {
+  0% {
+    top:500px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
