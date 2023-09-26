@@ -1,8 +1,15 @@
 import React, { useState } from 'react';
+import "./ProjectsContent.css";
 
 export const ProjectsContent: React.FC = () => {
 
-    return <b>PROJECTS PAGE CONTENT</b>;
+    return (
+        <>
+            <div className='profileImageDiv' style={{marginTop: '50px'}}>
+                <h1 id='float'>My Personal Projects</h1>
+            </div>
+        </>
+    );
 
 }
 

@@ -1,8 +1,15 @@
 import React, { useState } from 'react';
+import "./ExperienceContent.css";
 
 export const ExperienceContent: React.FC = () => {
 
-    return <b>EXPERIENCE PAGE CONTENT</b>;
+    return (
+        <>
+            <div className='profileImageDiv' style={{marginTop: '50px'}}>
+                <h1 id='float'>Professional Experience</h1>
+            </div>
+        </>
+    );
 
 }
 

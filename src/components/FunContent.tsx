@@ -1,8 +1,15 @@
 import React, { useState } from 'react';
+import "./FunContent.css";
 
 export const FunContent: React.FC = () => {
 
-    return <b>FUN PAGE CONTENT</b>;
+    return (
+        <>
+            <div className='profileImageDiv' style={{marginTop: '50px'}}>
+                <h1 id='float'>For Fun</h1>
+            </div>
+        </>
+    );
 
 }
 
