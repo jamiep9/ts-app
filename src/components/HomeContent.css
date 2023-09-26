@@ -15,6 +15,7 @@
 
 .skillsDiv {
   transform: translate(20%, 0%);
+  margin: 0px 10px 75px 10px;
 }
 
 .skillsButton {
@@ -23,6 +24,11 @@
   color: #000000;
   background-color: #d3dce3;
   pointer-events: none;
+}
+
+.honorsCard {
+  margin-bottom: 10px;
+  background-color: #d3dce3;
 }
 
 h1 {

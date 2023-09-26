@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import {Card, Image, Row, Col, Button} from 'antd';
 import "./HomeContent.css";
 import profilePic from "./../images/profile-pic.png";
+import cordaCertified from "./../images/corda-certified.png";
+import { Link } from "react-router-dom";
 
 export const HomeContent: React.FC = () => {
 
@@ -24,34 +26,22 @@ export const HomeContent: React.FC = () => {
                 </Col>
             </Row>
         </div>
-        <div className='profileImageDiv'>
+        <div className='skillsDiv'>
             <Row>
-                <Col span={24}>
+                <Col span={8}>
                     <h1 id='float'>About Me</h1>
                     <h2 id='float2'>
                         I graduated from Cornell University in 2021 with a major in Electrical and Computer Engineering and a minor in 
-                        <br></br> 
                         Information Science. Throughout my time in university, I worked on a diverse range of projects involving
-                        <br></br>
                         computer engineering, electrical engineering, computer science, physics, and UX/UI design. 
                     </h2>
                     <h2 id='float2'>
                         Since graduation, I have worked full-time for 2+ years as a software engineer and have worked in backend,
-                        <br></br>
                         frontend, and full-stack roles. I'm very proud to have gained a diverse range of experience and consistently
-                        <br></br>
                         further my growth in engineering and software development. Most recently, I have worked as a solutions engineer
-                        <br></br>
                         at R3, a client-facing role in which I developed innovative and creative solutions for users of R3's
-                        <br></br>
                         Corda blockchain.
                     </h2>
-                </Col>
-            </Row>
-        </div>
-        <div className='skillsDiv'>
-            <Row>
-                <Col span={6}>
                     <h1 id='float'>Skills and Technologies</h1>
                     <Row id='float2'>
                         <Button type='primary' className='skillsButton' style={{width: '100px', height: '50px'}}>
@@ -109,27 +99,38 @@ export const HomeContent: React.FC = () => {
                         </Button>
                     </Row>
                 </Col>
-                <Col span={1}></Col>
-                <Col span={6}>
+                <Col xs={1} md={1} lg={1} xl={1}></Col>
+                <Col span={7}>
                     <h1 id='float'>Honors and Certifications</h1>
-                    <h2 id='float2'>
-                        I graduated from Cornell University in 2021 with a major in Electrical and Computer Engineering and a minor in 
-                        <br></br> 
-                        Information Science. Throughout my time in university, I worked on a diverse range of projects involving
+                    <Card className='honorsCard' bordered={false} id='float2' title={<h2>Corda Certified Developer</h2>}>
+                        <Row>
+                            <Col span={16}>
+                                <Link to="https://www.credly.com/badges/313ca54e-77e7-4b0e-9da0-615c34027e2f/public_url" target="_blank" rel="noopener noreferrer" style={{fontSize:'20px', color:'#253d4b'}}>View Certification</Link>
+                                <br></br>
+                                <br></br>
+                                Awarded to certify technical expertise in using Corda and developing Corda applications
+                                <br></br>
+                                Issued August 2022
+                            </Col>
+                            <Col span={8}>
+                                <Image
+                                    width={130}
+                                    src={cordaCertified}
+                                    id='float'
+                                />
+                            </Col>
+                        </Row>
+                    </Card>
+                    <Card className='honorsCard' bordered={false} id='float2' title={<h2>2019 IEEE MIT URTC Presenter</h2>}>
+                        <Link to="https://ieeexplore.ieee.org/document/9660511" target="_blank" rel="noopener noreferrer" style={{fontSize:'20px', color:'#253d4b'}}>View Paper in IEEE<i>Xplore</i></Link>
                         <br></br>
-                        computer engineering, electrical engineering, computer science, physics, and UX/UI design. 
-                    </h2>
-                    <h2 id='float2'>
-                        Since graduation, I have worked full-time for 2+ years as a software engineer and have worked in backend,
                         <br></br>
-                        frontend, and full-stack roles. I'm very proud to have gained a diverse range of experience and consistently
+                        Authored a peer-reviewed paper and presented research on a biomechanical project developed in the summer of 2019 to regulate stroke patients’ gait
                         <br></br>
-                        further my growth in engineering and software development. Most recently, I have worked as a solutions engineer
+                        Presented October 12, 2019
                         <br></br>
-                        at R3, a client-facing role in which I developed innovative and creative solutions for clients using R3's
-                        <br></br>
-                        Corda blockchain.
-                    </h2>
+                        Published in IEEE<i>Xplore</i> January 04, 2022
+                    </Card>
                 </Col>
             </Row>
         </div>
