@@ -31,12 +31,31 @@
   background-color: #d3dce3;
 }
 
+.expCardHeader {
+  color: #545454;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.expCardDates {
+  color: #545454;
+  margin-left: 25px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
 h1 {
   font-size: 75px;
   color: #507991;
 }
 
 h2 {
+  color: #253d4b;
+}
+
+h3 {
+  margin-top: 0px;
   color: #253d4b;
 }
 
