@@ -64,7 +64,7 @@ export const ExperienceContent: React.FC = () => {
                         title={<h2>MainStreet Work, Inc.  <span className='expCardHeader'>Remote</span></h2>}
                         onClick={() => window.open('https://mainstreet.com/','_blank', 'rel=noopener noreferrer')}
                     >
-                        <h3>Fullstack Software Developer <i className='expCardDates'>March 2022 - August 2022</i></h3>
+                        <h3>Fullstack Software Developer <i className='expCardDates'>March 2022 - July 2022</i></h3>
                         <ul>
                             <li>
                                 Developed an innovative platform for startup organizations to optimize tax 

@@ -40,6 +40,10 @@ h2 {
   color: #253d4b;
 }
 
+a {
+  color: #253d4b;
+}
+
 #float {
   position: relative;
   -webkit-animation: floatBubble 1.5s;

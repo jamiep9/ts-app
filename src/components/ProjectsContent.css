@@ -6,6 +6,7 @@
 
 .profileImage {
   border-radius: 25px;
+  pointer-events: none;
 }
 
 .profileImageDiv {
@@ -29,6 +30,29 @@
 .honorsCard {
   margin-bottom: 10px;
   background-color: #d3dce3;
+}
+
+.honorLink {
+  font-size: 15px; 
+  color: #253d4b;
+}
+
+.honorLink:hover {
+  color: #477692;
+}
+
+.expCardHeader {
+  color: #545454;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.expCardDates {
+  color: #545454;
+  margin-left: 25px;
+  font-size: 15px;
+  font-weight: 300;
 }
 
 h1 {

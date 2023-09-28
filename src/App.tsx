@@ -1,6 +1,7 @@
 import { Button, Layout } from 'antd';
 import React from 'react';
 import NavBar from './components/NavBar';
+import { Link } from 'react-router-dom';
 import RoutePaths from './Routing/RoutePaths';
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -17,7 +18,7 @@ const App: React.FC = () => (
             width: '100%',
             backgroundColor: '#d3dce3'}}
           >
-            ©2023 Jamie Poole
+            ©2023 Jamie Poole <Link to='https://github.com/jamiep9/ts-app' target="_blank" rel="noopener noreferrer" style={{marginLeft:'15px'}}>View Source Code</Link>
           </Footer>
   </div>
 );

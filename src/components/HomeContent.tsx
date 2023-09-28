@@ -105,7 +105,7 @@ export const HomeContent: React.FC = () => {
                     <Card className='honorsCard' bordered={false} id='float2' title={<h2>Corda Certified Developer</h2>}>
                         <Row>
                             <Col span={16}>
-                                <Link to="https://www.credly.com/badges/313ca54e-77e7-4b0e-9da0-615c34027e2f/public_url" target="_blank" rel="noopener noreferrer" style={{fontSize:'20px', color:'#253d4b'}}>View Certification</Link>
+                                <Link to="https://www.credly.com/badges/313ca54e-77e7-4b0e-9da0-615c34027e2f/public_url" target="_blank" rel="noopener noreferrer" className='honorLink'>View Certification</Link>
                                 <br></br>
                                 <br></br>
                                 Awarded to certify technical expertise in using Corda and developing Corda applications
@@ -122,7 +122,7 @@ export const HomeContent: React.FC = () => {
                         </Row>
                     </Card>
                     <Card className='honorsCard' bordered={false} id='float2' title={<h2>2019 IEEE MIT URTC Presenter</h2>}>
-                        <Link to="https://ieeexplore.ieee.org/document/9660511" target="_blank" rel="noopener noreferrer" style={{fontSize:'20px', color:'#253d4b'}}>View Paper in IEEE<i>Xplore</i></Link>
+                        <Link to="https://ieeexplore.ieee.org/document/9660511" target="_blank" rel="noopener noreferrer" className='honorLink'>View Paper in IEEE<i>Xplore</i></Link>
                         <br></br>
                         <br></br>
                         Authored a peer-reviewed paper and presented research on a biomechanical project developed in the summer of 2019 to regulate stroke patients’ gait
