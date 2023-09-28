@@ -31,13 +31,74 @@
   background-color: #d3dce3;
 }
 
-h1 {
-  font-size: 75px;
-  color: #507991;
+.container {
+  position: relative;
+  width: 100%;
 }
 
-h2 {
-  color: #253d4b;
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5b5b5b;
+  border-radius: 25px;
+}
+
+.container:hover .overlay {
+  opacity: 0.5;
+}
+
+.container:hover .text {
+  opacity: 1;
+}
+
+.container:hover .text2 {
+  opacity: 1;
+}
+
+.text {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  opacity: 0;
+  text-align: left;
+  transition: .5s ease;
+}
+
+.text2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  opacity: 0;
+  text-align: left;
+  transition: .5s ease;
+}
+
+.headerText {
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.headerText2 {
+  margin-top: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 #float {
