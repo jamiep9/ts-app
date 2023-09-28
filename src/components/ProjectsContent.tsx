@@ -19,7 +19,7 @@ import cusailEce from "./../images/cusail-ece.png";
 import robotStraightLine from "./../images/straight_line.gif";
 import robotWires from "./../images/robot-wires.png";
 import robotMap from "./../images/robot-map.png";
-import robotFinish from "./../images/robot-finish.png";
+import robotMaze from "./../images/maze_map.gif";
 
 export const ProjectsContent: React.FC = () => {
 
@@ -199,14 +199,22 @@ export const ProjectsContent: React.FC = () => {
                     >
                         <h3>About this Project <i className='expCardDates'>Developed 2018-2020</i></h3>
                         <p>
-                            CUSail is one of Cornell's many engineering project teams, with students across a variety of majors and disciplines. 
+                            CUSail is one of Cornell's many engineering project teams, with students across a variety of majors and disciplines. CUSail creates an autonomous sailboat
+                            to compete in the SailBot competition, in which a sailboat must autonomously navigate a course with regard to wind, current, and other sailing conditions.
+                            The sailboat's navigation software relies on input from a variety of sensors while consistently updating its course. The boat also employs cutting-edge
+                            mechanical design to be aerodynamic and travel as efficiently as possible.
                         </p>
                         <div style={{marginBottom: '15px'}}>
                             <Link to='https://cusail.org' target="_blank" rel="noopener noreferrer" className='honorLink'>View Project Website</Link>
                         </div>
+                        <div style={{marginBottom: '15px'}}>
+                            <Link to='https://github.com/DSutyak/CUSail' target="_blank" rel="noopener noreferrer" className='honorLink'>View GitHub Repository</Link>
+                        </div>
                         <h3>My Responsibilities</h3>
                         <ul>
-                            <li>hi</li>
+                            <li>Design and build efficient electrical system to connect boat sensors to main PCB with regard to size to keep waterproof</li>
+                            <li>Develop embedded system to control mechanical servo components and obtain sensor readings</li>
+                            <li>Run regular tests on electrical systems to ensure efficiency and proper functionality</li>
                         </ul>
                         <h3>Highlights</h3>
                         <Row gutter={50}>
@@ -238,7 +246,12 @@ export const ProjectsContent: React.FC = () => {
                         title={<h2>Autonomous Maze-Following and Mapping Robot</h2>}
                     >
                         <h3>About this Project <i className='expCardDates'>Developed in 2019</i></h3>
-                        <p>idkidkdk</p>
+                        <p>
+                            Our team was tasked with designing and building a fully-autonomous robot that could efficiently and accurately navigate and map a maze.
+                            The robot uses an Arduino UNO board as its main processor and employs a variety of sensors to perceive, reason about, and act upon its
+                            environment. To map the maze, the robot uses a depth-first search algorithm and transmits its findings to an FPGA to be displayed on a 
+                            monitor. The robot is also able to avoid other robots using an IR sensor to detect infrared signals produced by other robots.
+                        </p>
                         <div style={{marginBottom: '15px'}}>
                             <Link to='https://pages.github.coecis.cornell.edu/ach238/ECE3400-Website/index.html' target="_blank" rel="noopener noreferrer" className='honorLink'>View Project Website</Link>
                         </div>
@@ -247,23 +260,32 @@ export const ProjectsContent: React.FC = () => {
                         </div>
                         <h3>My Responsibilities</h3>
                         <ul>
-                            <li>hi</li>
+                            <li>Utilize line sensors to allow the robot to follow the line grid on the floor of the maze and repeatedly adjust servo motors to keep itself in line</li>
+                            <li>Program robot reactions to detecting maze walls with ultrasonic sensors</li>
+                            <li>Write DFS recursive algorithm for robot to efficiently navigate any given maze in the allotted time</li>
+                            <li>Transmit maze data from Arduino Uno to FPGA to display visual representation of the maze</li>
                         </ul>
                         <h3>Highlights</h3>
                         <Row gutter={50}>
-                            <Col span={8} className='gutter-row'>
+                            <Col span={6} className='gutter-row'>
                                 <Image
                                     src={robotStraightLine}
                                     className='profileImage'
                                 />
                             </Col>
-                            <Col span={8} className='gutter-row'>
+                            <Col span={6} className='gutter-row'>
+                                <Image
+                                    src={robotMaze}
+                                    className='profileImage'
+                                />
+                            </Col>
+                            <Col span={6} className='gutter-row'>
                                 <Image
                                     src={robotWires}
                                     className='profileImage'
                                 />
                             </Col>
-                            <Col span={8} className='gutter-row'>
+                            <Col span={6} className='gutter-row'>
                                 <Image
                                     src={robotMap}
                                     className='profileImage'
