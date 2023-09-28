@@ -3,6 +3,7 @@ import {Card, Image, Row, Col, Button} from 'antd';
 import "./HomeContent.css";
 import profilePic from "./../images/profile-pic.png";
 import cordaCertified from "./../images/corda-certified.png";
+import cornellSeal from "./../images/Cornell_University_seal.png";
 import { Link } from "react-router-dom";
 
 export const HomeContent: React.FC = () => {
@@ -101,6 +102,25 @@ export const HomeContent: React.FC = () => {
                 </Col>
                 <Col xs={1} md={1} lg={1} xl={1}></Col>
                 <Col span={7}>
+                    <h1 id='float'>Education</h1>
+                    <Card className='honorsCard' bordered={false} id='float2' title={<h2>Cornell University <br></br><span style={{color:'#545454', fontSize: '18px', fontWeight: '300'}}>College of Engineering</span></h2>}>
+                        <Row>
+                            <Col span={16}>
+                            <h3>Bachelor of Science in Electrical and Computer Engineering</h3>
+                            <h4>Minor in Information Science</h4>
+                            <i className='homeCardDates'>August 2017 - May 2021</i>
+                            <br></br>
+                            <i className='homeCardDates'>Ithaca, NY</i>
+                            </Col>
+                            <Col span={8}>
+                                <Image
+                                    width={150}
+                                    src={cornellSeal}
+                                    id='float'
+                                />
+                            </Col>
+                        </Row>
+                    </Card>
                     <h1 id='float'>Honors and Certifications</h1>
                     <Card className='honorsCard' bordered={false} id='float2' title={<h2>Corda Certified Developer</h2>}>
                         <Row>

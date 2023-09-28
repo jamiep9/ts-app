@@ -92,14 +92,24 @@ export const ProjectsContent: React.FC = () => {
                     >
                         <h3>About this Project <i className='expCardDates'>Developed in May 2021</i></h3>
                         <p>
-                            idkidkdk
+                            AdvicEats is an app targeting the needs of those with dietary restrictions who feel uncomfortable eating at new or unknown restaurants.
+                            Similar to other restaurant reviews apps, AdvicEats uses a star-based rating system, however a user will only see reviews written by those
+                            with the same dietary restrictions as them. The intention of this app is to present users with relevant reviews which relate only to their
+                            dietary restrictions. Users can leave a general review about the service or quality of food, and also a more specific review with comments
+                            on how well their dietary restrictions were addressed. When creating a profile, a user can add any diets or dietary restrictions they have,
+                            and the app will only show reviews by individuals with those same restrictions, and also give recommendations based on ratings and user 
+                            location.
                         </p>
                         <div style={{marginBottom: '15px'}}>
                             <Link to='https://www.figma.com/file/wkPXpWpiwnfSJjCHc3YtMA/Group-23---App-UI-Design?type=design&node-id=0%3A1&mode=design&t=Hh3Bb1pT0xWwk1Gl-1' target="_blank" rel="noopener noreferrer" className='honorLink'>View Figma Designs</Link>
                         </div>
                         <h3>My Responsibilities</h3>
                         <ul>
-                            <li>hi</li>
+                            <li>Follow the user-centric design process to determine designs that address a significant need for a user base regarding diets</li>
+                            <li>Design a smooth and accessible user flow that meets user needs</li>
+                            <li>Interview potential user base (individuals with various dietary restrictions) to understand pain points and receive feedback</li>
+                            <li>Sketch and develop wireframes in Balsamiq to establish UI design and user flow</li>
+                            <li>Build polished UI designs in Figma</li>
                         </ul>
                         <h3>Highlights</h3>
                         <Row gutter={50}>
@@ -137,7 +147,13 @@ export const ProjectsContent: React.FC = () => {
                         title={<h2>Music Looper</h2>}
                     >
                         <h3>About this Project <i className='expCardDates'>Developed in May 2020</i></h3>
-                        <p>idkidkdk</p>
+                        <p>
+                            Created an audio looper with multiple channels, in which one can record short sound bites to be overlaid with one another for quick music production. The looper has a keypad that can be used 
+                            to play a variety of instruments that can also be recorded and looped over one another. This device uses a Raspberry Pi with a keypad capable of playing multiple instrument sounds. The project 
+                            has two modes: Keypad mode, which allows users to select instruments and record sound-bites in up to two audio channels using the light-up keypad; and Looper mode, which, when activated, 
+                            overlays the sound in the two audio channels to create a repetitive audio loop. This project is designed to quickly create music tracks, and is targeted at new musicians starting out on 
+                            creating songs and remixes.
+                        </p>
                         <div style={{marginBottom: '15px'}}>
                             <Link to='https://courses.ece.cornell.edu/ece5990/ECE5725_Spring2020_Projects/May_20_Demo/Music%20Looper/Final_web/index.html' target="_blank" rel="noopener noreferrer" className='honorLink'>View Project Website</Link>
                         </div>
@@ -146,7 +162,11 @@ export const ProjectsContent: React.FC = () => {
                         </div>
                         <h3>My Responsibilities</h3>
                         <ul>
-                            <li>hi</li>
+                            <li>Brainstorm and sketch initial project design and create schematic</li>
+                            <li>Utilize PyGame library to create responsive touchscreen UI display on the Raspberry PiTFT screen</li>
+                            <li>Implement keypad sounds by converting 16 notes from each instrument into 16-bit .wav sounds to be installed on the Raspberry Pi</li>
+                            <li>Utilize ALSA commands to allow system to record and store audio using a USB microphone</li>
+                            <li>Overlay recorded audio tracks using the PyDub library to be played through the speaker</li>
                         </ul>
                         <h3>Highlights</h3>
                         <Row gutter={50}>
@@ -178,7 +198,9 @@ export const ProjectsContent: React.FC = () => {
                         title={<h2>CUSail - Autonomous Sailboat</h2>}
                     >
                         <h3>About this Project <i className='expCardDates'>Developed 2018-2020</i></h3>
-                        <p>idkidkdk</p>
+                        <p>
+                            CUSail is one of Cornell's many engineering project teams, with students across a variety of majors and disciplines. 
+                        </p>
                         <div style={{marginBottom: '15px'}}>
                             <Link to='https://cusail.org' target="_blank" rel="noopener noreferrer" className='honorLink'>View Project Website</Link>
                         </div>

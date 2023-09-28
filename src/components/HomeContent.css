@@ -40,12 +40,29 @@
   color: #477692;
 }
 
+.homeCardDates {
+  color: #545454;
+  font-size: 15px;
+  font-weight: 300;
+}
+
 h1 {
   font-size: 75px;
   color: #507991;
 }
 
 h2 {
+  color: #253d4b;
+}
+
+h3 {
+  margin-top: 0px;
+  color: #253d4b;
+}
+
+h4 {
+  margin-top: 0px;
+  font-weight: 500;
   color: #253d4b;
 }
 
