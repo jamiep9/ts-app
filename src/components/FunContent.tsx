@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import { Row, Col, Image} from 'antd';
 import "./FunContent.css";
+import { useNavigate } from 'react-router-dom';
 import cakeImage from "./../images/cake-funpage.png";
 import sunsetImage from "./../images/sunset-fun.png";
 import runningImage from "./../images/running-fun.png";
 
 export const FunContent: React.FC = () => {
+
+    const navigate = useNavigate();
 
     return (
         <>
@@ -13,7 +16,10 @@ export const FunContent: React.FC = () => {
                 <h1 id='float'>For Fun</h1>
                 <Row gutter={50} style={{marginBottom:'50px'}} id='float2'>
                     <Col span={7} className='gutter-row'>
-                        <div className='container'>
+                        <div 
+                            className='container'
+                            onClick={() => navigate('/fun/baking')}
+                        >
                             <Image
                                 src={cakeImage}
                                 className='profileImage image'
@@ -30,7 +36,10 @@ export const FunContent: React.FC = () => {
                         </div>
                     </Col>
                     <Col span={7} className='gutter-row'>
-                        <div className='container'>
+                        <div 
+                            className='container'
+                            onClick={() => navigate('/fun/adventures')}
+                        >
                             <Image
                                 src={sunsetImage}
                                 className='profileImage image'
@@ -49,7 +58,10 @@ export const FunContent: React.FC = () => {
                 </Row>
                 <Row gutter={50} id='float2'>
                     <Col span={7} className='gutter-row'>
-                        <div className='container'>
+                        <div 
+                            className='container'
+                            onClick={() => navigate('/fun/running')}
+                        >
                             <Image
                                 src={runningImage}
                                 className='profileImage image'
