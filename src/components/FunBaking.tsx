@@ -2,9 +2,22 @@ import React, { useState } from 'react';
 import { Row, Col, Image} from 'antd';
 import { Link } from 'react-router-dom';
 import "./FunContent.css";
-import cakeImage from "./../images/cake-funpage.png";
-import sunsetImage from "./../images/sunset-fun.png";
-import runningImage from "./../images/running-fun.png";
+import cakeCereal from "./../images/baking/cake_cereal.png";
+import cakeHalloween from "./../images/baking/cake_halloween.png";
+import macaronEyeballs from "./../images/baking/macarons_eyeballs.png";
+import macaronPink from "./../images/baking/macarons_pink.png";
+import cakeRoses from "./../images/baking/cake_roses.png";
+import macaronEaster from "./../images/baking/macarons_easter.png";
+import cakeTrans from "./../images/baking/cake_trans.png";
+import handmadeFettuccine from "./../images/baking/handmade_fettuccine.png";
+import cakeLeo from "./../images/baking/cake_leo.png";
+import cakeChristmas from "./../images/baking/cake_christmas.png";
+import cakeBlue from "./../images/baking/cake_blue.png";
+import macaronEverything from "./../images/baking/macaron_everything.png";
+import cakeValentines from "./../images/baking/cake_valentines.png";
+import macaronCandyHearts from "./../images/baking/macarons_candyhearts.png";
+import cakePinkPurple from "./../images/baking/cake_pinkpurple.png";
+import cupcakesPink from "./../images/baking/cupcakes_pink.png";
 
 export const FunBaking: React.FC = () => {
 
@@ -28,8 +41,109 @@ export const FunBaking: React.FC = () => {
                     </Col>
                 </Row>
                 <br></br>
-                <Row gutter={50}>
-                    <Col span={7} className='gutter-row'>idk</Col>
+                <Row gutter={50} style={{marginBottom:'50px'}}>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={cakeCereal}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={cakeHalloween}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={macaronEyeballs}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={macaronPink}
+                            className='profileImage'
+                        />
+                    </Col>
+                </Row>
+                <Row gutter={50} style={{marginBottom:'50px'}}>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={cakeRoses}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={macaronEaster}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={cakeTrans}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={handmadeFettuccine}
+                            className='profileImage'
+                        />
+                    </Col>
+                </Row>
+                <Row gutter={50} style={{marginBottom:'50px'}}>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={cakeLeo}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={cakeChristmas}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={cakeBlue}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={macaronEverything}
+                            className='profileImage'
+                        />
+                    </Col>
+                </Row>
+                <Row gutter={50} style={{marginBottom:'50px'}}>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={cakeValentines}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={macaronCandyHearts}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={cakePinkPurple}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={cupcakesPink}
+                            className='profileImage'
+                        />
+                    </Col>
                 </Row>
             </div>
         </>
