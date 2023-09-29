@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import { Row, Col, Image} from 'antd';
 import "./FunContent.css";
-import cakeImage from "./../images/cake-funpage.png";
-import sunsetImage from "./../images/sunset-fun.png";
-import runningImage from "./../images/running-fun.png";
 
 export const FunRunning: React.FC = () => {
 
