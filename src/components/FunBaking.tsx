@@ -41,7 +41,7 @@ export const FunBaking: React.FC = () => {
                     </Col>
                 </Row>
                 <br></br>
-                <Row gutter={50} style={{marginBottom:'50px'}}>
+                <Row gutter={50} style={{marginBottom:'50px'}} id='float2'>
                     <Col span={4} className='gutter-row'>
                         <Image
                             src={cakeCereal}
@@ -67,7 +67,7 @@ export const FunBaking: React.FC = () => {
                         />
                     </Col>
                 </Row>
-                <Row gutter={50} style={{marginBottom:'50px'}}>
+                <Row gutter={50} style={{marginBottom:'50px'}} id='float2'>
                     <Col span={4} className='gutter-row'>
                         <Image
                             src={cakeRoses}
@@ -93,7 +93,7 @@ export const FunBaking: React.FC = () => {
                         />
                     </Col>
                 </Row>
-                <Row gutter={50} style={{marginBottom:'50px'}}>
+                <Row gutter={50} style={{marginBottom:'50px'}} id='float2'>
                     <Col span={4} className='gutter-row'>
                         <Image
                             src={cakeLeo}
@@ -119,7 +119,7 @@ export const FunBaking: React.FC = () => {
                         />
                     </Col>
                 </Row>
-                <Row gutter={50} style={{marginBottom:'50px'}}>
+                <Row gutter={50} style={{marginBottom:'50px'}} id='float2'>
                     <Col span={4} className='gutter-row'>
                         <Image
                             src={cakeValentines}
