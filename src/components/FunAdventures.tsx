@@ -1,6 +1,14 @@
 import React, { useState } from 'react';
 import { Row, Col, Image} from 'antd';
 import "./FunContent.css";
+import denver1 from "./../images/adventures/denver_1.png";
+import denver2 from "./../images/adventures/denver_2.png";
+import denver3 from "./../images/adventures/denver_3.png";
+import denver4 from "./../images/adventures/denver_4.png";
+import maine1 from "./../images/adventures/maine_1.png";
+import maine2 from "./../images/adventures/maine_2.png";
+import maine3 from "./../images/adventures/maine_3.png";
+import maine4 from "./../images/adventures/maine_4.png";
 
 export const FunAdventures: React.FC = () => {
 
@@ -21,8 +29,36 @@ export const FunAdventures: React.FC = () => {
                             Denver
                         </h2>
                         <h2 id='float2'>
-                            I went on a solo trip to Denver, Colorado in September 2023
+                            I went on a solo trip to Denver, Colorado in September 2023 and it was one of the highlights of this year!
+                            I really enjoyed the challenging hikes and the beautiful views. One of my favorite hikes was the Walker Ranch Loop,
+                            an 8-mile loop just outside of Boulder. Although I got winded at times, it was worth it for the incredible mountain views!
                         </h2>
+                    </Col>
+                </Row>
+                <Row gutter={50} style={{marginBottom:'30px', marginTop: '30px'}} id='float2'>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={denver1}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={denver2}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={denver3}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={denver4}
+                            className='profileImage'
+                        />
                     </Col>
                 </Row>
                 <Row>
@@ -35,6 +71,32 @@ export const FunAdventures: React.FC = () => {
                             We spent 4 days hiking, eating lobster, and getting some gorgeous waterfront views! The highlight of our trip was seeing the
                             most beautiful sunset over the harbor on the night before we left.
                         </h2>
+                    </Col>
+                </Row>
+                <Row gutter={50} style={{marginBottom:'30px', marginTop: '30px'}} id='float2'>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={maine1}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={maine2}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={maine3}
+                            className='profileImage'
+                        />
+                    </Col>
+                    <Col span={4} className='gutter-row'>
+                        <Image
+                            src={maine4}
+                            className='profileImage'
+                        />
                     </Col>
                 </Row>
             </div>
