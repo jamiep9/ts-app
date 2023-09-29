@@ -29,7 +29,7 @@ export const FunBaking: React.FC = () => {
                 </Row>
                 <br></br>
                 <Row gutter={50}>
-                    <Col span={14} className='gutter-row'>idk</Col>
+                    <Col span={7} className='gutter-row'>idk</Col>
                 </Row>
             </div>
         </>
