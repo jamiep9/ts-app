@@ -46,13 +46,15 @@
   font-weight: 300;
 }
 
+.parText {
+  font-size: 1.3rem;
+  color: #253d4b;
+  font-weight: 700;
+}
+
 h1 {
   font-size: 75px;
   color: #507991;
-}
-
-h2 {
-  color: #253d4b;
 }
 
 h3 {

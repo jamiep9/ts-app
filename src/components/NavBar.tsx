@@ -16,17 +16,17 @@ export const NavBar: React.FC = () => {
 
     return (
         <div className="navBarDiv">
-            <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" style={{backgroundColor:'#c3d9e6'}}>
-                <Menu.Item key='/' style={{marginRight:'100px'}}>
+            <Menu onClick={onClick} selectedKeys={[current]} mode={window.innerWidth >= 900 ? "horizontal" : "vertical"} style={{backgroundColor:'#c3d9e6'}}>
+                <Menu.Item key='/' style={{marginRight: '100px'}}>
                     HOME
                 </Menu.Item>
-                <Menu.Item key='/experience' style={{marginRight:'100px'}}>
+                <Menu.Item key='/experience' style={{marginRight: '100px'}}>
                     EXPERIENCE
                 </Menu.Item>
-                <Menu.Item key='/projects' style={{marginRight:'100px'}}>
+                <Menu.Item key='/projects' style={{marginRight: '100px'}}>
                     PROJECTS
                 </Menu.Item>
-                <Menu.Item key='/fun' style={{marginRight:'100px'}}>
+                <Menu.Item key='/fun' style={{marginRight: '100px'}}>
                     FOR FUN
                 </Menu.Item>
                 <Menu.Item key='/contact'>

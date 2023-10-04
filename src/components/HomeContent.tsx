@@ -12,37 +12,37 @@ export const HomeContent: React.FC = () => {
         <>
         <div className='profileImageDiv' style={{marginTop: '50px'}}>
             <Row gutter={50}>
-                <Col span={5} className='gutter-row'>
+                <Col xs={16} sm={16} md={16} lg={10} xl={5} className='gutter-row'>
                     <Image
-                        width={300}
                         src={profilePic}
                         className='profileImage'
                         id='float'
                     />
                 </Col>
-                <Col span={19} className='gutter-row'>
-                    <h1 id='float'>Hi, I'm Jamie.</h1>
-                    <h2 id='float2'>I'm a software developer based in NYC.</h2>
-                    <h2 id='float2'>I am passionate about designing and building modern and accessible <br></br> solutions that are creative, user-centric, and innovative.</h2>
+                <Col xs={16} sm={16} md={16} lg={10} xl={10} className='gutter-row'>
+                    <h1 id='float' style={{fontSize:'5rem'}}>Hi, I'm Jamie.</h1>
+                    <span className='parText' id='float2'>I'm a software developer based in NYC.</span>
+                    <br></br>
+                    <p className='parText' id='float2'>I am passionate about designing and building modern and accessible solutions that are creative, user-centric, and innovative.</p>
                 </Col>
             </Row>
         </div>
         <div className='skillsDiv'>
-            <Row>
-                <Col span={8}>
+            <Row gutter={50}>
+                <Col xs={16} sm={16} md={16} lg={16} xl={8} className='gutter-row'>
                     <h1 id='float'>About Me</h1>
-                    <h2 id='float2'>
+                    <p className='parText' id='float2'>
                         I graduated from Cornell University in 2021 with a major in Electrical and Computer Engineering and a minor in 
                         Information Science. Throughout my time in university, I worked on a diverse range of projects involving
                         computer engineering, electrical engineering, computer science, physics, and UX/UI design. 
-                    </h2>
-                    <h2 id='float2'>
+                    </p>
+                    <p className='parText' id='float2'>
                         Since graduation, I have worked full-time for 2+ years as a software engineer and have worked in backend,
                         frontend, and full-stack roles. I'm very proud to have gained a diverse range of experience and consistently
                         further my growth in engineering and software development. Most recently, I have worked as a solutions engineer
                         at R3, a client-facing role in which I developed innovative and creative solutions for users of R3's
                         Corda blockchain.
-                    </h2>
+                    </p>
                     <h1 id='float'>Skills and Technologies</h1>
                     <Row id='float2'>
                         <Button type='primary' className='skillsButton' style={{width: '100px', height: '50px'}}>
@@ -100,8 +100,7 @@ export const HomeContent: React.FC = () => {
                         </Button>
                     </Row>
                 </Col>
-                <Col xs={1} md={1} lg={1} xl={1}></Col>
-                <Col span={7}>
+                <Col xs={16} sm={16} md={16} lg={16} xl={8} className='gutter-row'>
                     <h1 id='float'>Education</h1>
                     <Card className='honorsCard' bordered={false} id='float2' title={<h2>Cornell University <br></br><span style={{color:'#545454', fontSize: '18px', fontWeight: '300'}}>College of Engineering</span></h2>}>
                         <Row>
@@ -114,7 +113,6 @@ export const HomeContent: React.FC = () => {
                             </Col>
                             <Col span={8}>
                                 <Image
-                                    width={150}
                                     src={cornellSeal}
                                     id='float'
                                 />
@@ -134,7 +132,6 @@ export const HomeContent: React.FC = () => {
                             </Col>
                             <Col span={8}>
                                 <Image
-                                    width={130}
                                     src={cordaCertified}
                                     id='float'
                                 />

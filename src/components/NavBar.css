@@ -1,5 +1,10 @@
 .navBarDiv {
   margin: auto;
-  width: 875px;
-  padding: 10px;
+  padding: 1rem;
+}
+
+@media (min-width: 900px) {
+  .navBarDiv{
+    width: 55rem;
+  }
 }
