@@ -17,6 +17,12 @@
   justify-content: center;
 }
 
+@media (max-width: 1500px) {
+  .profileImageDiv {
+    width: 80%;
+  }
+}
+
 .skillsDiv {
   display: flex;
   flex-direction: column;
@@ -24,6 +30,12 @@
   justify-content: center;
   margin: auto;
   width: 60%;
+}
+
+@media (max-width: 1500px) {
+  .skillsDiv {
+    width: 80%;
+  }
 }
 
 .skillsButton {

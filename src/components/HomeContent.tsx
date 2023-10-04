@@ -27,9 +27,9 @@ export const HomeContent: React.FC = () => {
                 </Col>
             </Row>
         </div>
-        <div className='skillsDiv'>
+        <div className='profileImageDiv'>
             <Row gutter={50}>
-                <Col xs={22} sm={22} md={20} lg={16} xl={12} className='gutter-row'>
+                <Col xs={22} sm={22} md={20} lg={1} xl={12} className='gutter-row'>
                     <p className='mainHeadersText' id='float'>About Me</p>
                     <p className='parText' id='float2'>
                         I graduated from Cornell University in 2021 with a major in Electrical and Computer Engineering and a minor in 
