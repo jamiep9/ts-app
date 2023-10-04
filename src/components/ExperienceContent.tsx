@@ -11,7 +11,7 @@ export const ExperienceContent: React.FC = () => {
         <>
             <div className='profileImageDiv' style={{marginTop: '50px'}}>
                 <p className='mainHeadersText' id='float'>Professional Experience</p>
-                <Col xs={18} sm={18} md={16} lg={14} xl={14}>
+                <Col span={24}>
                     <Card 
                         className='honorsCard' 
                         hoverable

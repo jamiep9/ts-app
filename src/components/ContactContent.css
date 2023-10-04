@@ -9,13 +9,21 @@
 }
 
 .profileImageDiv {
-  margin: 0px 10px 0px 10px;
-  transform: translate(20%, 0%);
+  margin: auto;
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .skillsDiv {
-  transform: translate(20%, 0%);
-  margin: 0px 10px 75px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
 }
 
 .skillsButton {

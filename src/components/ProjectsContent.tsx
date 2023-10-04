@@ -26,8 +26,8 @@ export const ProjectsContent: React.FC = () => {
     return (
         <>
             <div className='profileImageDiv' style={{marginTop: '50px'}}>
-                <h1 id='float'>My Personal Projects</h1>
-                <Col span={14}>
+                <p className='mainHeadersText' id='float'>My Personal Projects</p>
+                <Col span={24}>
                     <Card 
                         className='honorsCard' 
                         hoverable
@@ -57,25 +57,25 @@ export const ProjectsContent: React.FC = () => {
                         </ul>
                         <h3>Highlights</h3>
                         <Row gutter={50}>
-                            <Col span={6} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={6} xl={6} className='gutter-row'>
                                 <Image
                                     src={weTrainLogin}
                                     className='profileImage'
                                 />
                             </Col>
-                            <Col span={6} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={6} xl={6} className='gutter-row'>
                                 <Image
                                     src={weTrainBasic}
                                     className='profileImage'
                                 />
                             </Col>
-                            <Col span={6} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={6} xl={6} className='gutter-row'>
                                 <Image
                                     src={weTrainRunning}
                                     className='profileImage'
                                 />
                             </Col>
-                            <Col span={6} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={6} xl={6} className='gutter-row'>
                                 <Image
                                     src={weTrainAdditional}
                                     className='profileImage'
@@ -113,25 +113,25 @@ export const ProjectsContent: React.FC = () => {
                         </ul>
                         <h3>Highlights</h3>
                         <Row gutter={50}>
-                            <Col span={6} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={6} xl={6} className='gutter-row'>
                                 <Image
                                     src={adviceHome}
                                     className='profileImage'
                                 />
                             </Col>
-                            <Col span={6} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={6} xl={6} className='gutter-row'>
                                 <Image
                                     src={adviceFilters}
                                     className='profileImage'
                                 />
                             </Col>
-                            <Col span={6} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={6} xl={6} className='gutter-row'>
                                 <Image
                                     src={adviceReviews}
                                     className='profileImage'
                                 />
                             </Col>
-                            <Col span={6} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={6} xl={6} className='gutter-row'>
                                 <Image
                                     src={adviceProfile}
                                     className='profileImage'
@@ -170,19 +170,19 @@ export const ProjectsContent: React.FC = () => {
                         </ul>
                         <h3>Highlights</h3>
                         <Row gutter={50}>
-                            <Col span={8} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={8} xl={8} className='gutter-row'>
                                 <Image
                                     src={looperKeypad}
                                     className='profileImage'
                                 />
                             </Col>
-                            <Col span={8} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={8} xl={8}  className='gutter-row'>
                                 <Image
                                     src={looperScreen}
                                     className='profileImage'
                                 />
                             </Col>
-                            <Col span={8} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={8} xl={8}  className='gutter-row'>
                                 <Image
                                     src={looperFull}
                                     className='profileImage'
@@ -218,19 +218,19 @@ export const ProjectsContent: React.FC = () => {
                         </ul>
                         <h3>Highlights</h3>
                         <Row gutter={50}>
-                            <Col span={8} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={8} xl={8}  className='gutter-row'>
                                 <Image
                                     src={cusailBoat}
                                     className='profileImage'
                                 />
                             </Col>
-                            <Col span={8} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={8} xl={8}  className='gutter-row'>
                                 <Image
                                     src={cusailEce}
                                     className='profileImage'
                                 />
                             </Col>
-                            <Col span={8} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={8} xl={8}  className='gutter-row'>
                                 <Image
                                     src={cusailElectrical}
                                     className='profileImage'
@@ -267,25 +267,25 @@ export const ProjectsContent: React.FC = () => {
                         </ul>
                         <h3>Highlights</h3>
                         <Row gutter={50}>
-                            <Col span={6} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={6} xl={6}  className='gutter-row'>
                                 <Image
                                     src={robotStraightLine}
                                     className='profileImage'
                                 />
                             </Col>
-                            <Col span={6} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={6} xl={6} className='gutter-row'>
                                 <Image
                                     src={robotMaze}
                                     className='profileImage'
                                 />
                             </Col>
-                            <Col span={6} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={6} xl={6} className='gutter-row'>
                                 <Image
                                     src={robotWires}
                                     className='profileImage'
                                 />
                             </Col>
-                            <Col span={6} className='gutter-row'>
+                            <Col xs={24} sm={24} md={24} lg={6} xl={6} className='gutter-row'>
                                 <Image
                                     src={robotMap}
                                     className='profileImage'
