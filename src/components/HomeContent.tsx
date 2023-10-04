@@ -20,7 +20,7 @@ export const HomeContent: React.FC = () => {
                     />
                 </Col>
                 <Col xs={16} sm={16} md={16} lg={10} xl={10} className='gutter-row'>
-                    <h1 id='float' style={{fontSize:'5rem'}}>Hi, I'm Jamie.</h1>
+                    <p className='mainHeadersText' id='float'>Hi, I'm Jamie.</p>
                     <span className='parText' id='float2'>I'm a software developer based in NYC.</span>
                     <br></br>
                     <p className='parText' id='float2'>I am passionate about designing and building modern and accessible solutions that are creative, user-centric, and innovative.</p>
@@ -30,7 +30,7 @@ export const HomeContent: React.FC = () => {
         <div className='skillsDiv'>
             <Row gutter={50}>
                 <Col xs={16} sm={16} md={16} lg={16} xl={8} className='gutter-row'>
-                    <h1 id='float'>About Me</h1>
+                    <p className='mainHeadersText' id='float'>About Me</p>
                     <p className='parText' id='float2'>
                         I graduated from Cornell University in 2021 with a major in Electrical and Computer Engineering and a minor in 
                         Information Science. Throughout my time in university, I worked on a diverse range of projects involving
@@ -43,7 +43,7 @@ export const HomeContent: React.FC = () => {
                         at R3, a client-facing role in which I developed innovative and creative solutions for users of R3's
                         Corda blockchain.
                     </p>
-                    <h1 id='float'>Skills and Technologies</h1>
+                    <p className='mainHeadersText' id='float'>Skills and Technologies</p>
                     <Row id='float2'>
                         <Button type='primary' className='skillsButton' style={{width: '100px', height: '50px'}}>
                             React
@@ -101,7 +101,7 @@ export const HomeContent: React.FC = () => {
                     </Row>
                 </Col>
                 <Col xs={16} sm={16} md={16} lg={16} xl={8} className='gutter-row'>
-                    <h1 id='float'>Education</h1>
+                    <p className='mainHeadersText' id='float'>Education</p>
                     <Card className='honorsCard' bordered={false} id='float2' title={<h2>Cornell University <br></br><span style={{color:'#545454', fontSize: '18px', fontWeight: '300'}}>College of Engineering</span></h2>}>
                         <Row>
                             <Col span={16}>
@@ -119,7 +119,7 @@ export const HomeContent: React.FC = () => {
                             </Col>
                         </Row>
                     </Card>
-                    <h1 id='float'>Honors and Certifications</h1>
+                    <p className='mainHeadersText' id='float'>Honors and Certifications</p>
                     <Card className='honorsCard' bordered={false} id='float2' title={<h2>Corda Certified Developer</h2>}>
                         <Row>
                             <Col span={16}>
