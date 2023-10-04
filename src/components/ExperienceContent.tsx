@@ -10,8 +10,8 @@ export const ExperienceContent: React.FC = () => {
     return (
         <>
             <div className='profileImageDiv' style={{marginTop: '50px'}}>
-                <h1 id='float'>Professional Experience</h1>
-                <Col span={14}>
+                <p className='mainHeadersText' id='float'>Professional Experience</p>
+                <Col xs={18} sm={18} md={16} lg={14} xl={14}>
                     <Card 
                         className='honorsCard' 
                         hoverable

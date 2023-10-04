@@ -29,7 +29,7 @@ export const HomeContent: React.FC = () => {
         </div>
         <div className='skillsDiv'>
             <Row gutter={50}>
-                <Col xs={16} sm={16} md={16} lg={16} xl={8} className='gutter-row'>
+                <Col xs={20} sm={20} md={20} lg={16} xl={8} className='gutter-row'>
                     <p className='mainHeadersText' id='float'>About Me</p>
                     <p className='parText' id='float2'>
                         I graduated from Cornell University in 2021 with a major in Electrical and Computer Engineering and a minor in 
@@ -100,9 +100,9 @@ export const HomeContent: React.FC = () => {
                         </Button>
                     </Row>
                 </Col>
-                <Col xs={16} sm={16} md={16} lg={16} xl={8} className='gutter-row'>
+                <Col xs={20} sm={20} md={16} lg={16} xl={8} className='gutter-row'>
                     <p className='mainHeadersText' id='float'>Education</p>
-                    <Card className='honorsCard' bordered={false} id='float2' title={<h2>Cornell University <br></br><span style={{color:'#545454', fontSize: '18px', fontWeight: '300'}}>College of Engineering</span></h2>}>
+                    <Card className='honorsCard' bordered={false} id='float2' title={<h2>Cornell University <br></br><span style={{color:'#545454', fontSize: '1', fontWeight: '300'}}>College of Engineering</span></h2>}>
                         <Row>
                             <Col span={16}>
                             <h3>Bachelor of Science in Electrical and Computer Engineering</h3>

@@ -8,6 +8,18 @@
   border-radius: 25px;
 }
 
+.mainHeadersText {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #507991;
+}
+
+@media (max-width: 500px) {
+  .mainHeadersText {
+    font-size: 2.5rem;
+  }
+}
+
 .profileImageDiv {
   margin: 0px 10px 0px 10px;
   transform: translate(20%, 0%);
