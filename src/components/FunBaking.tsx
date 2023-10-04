@@ -23,44 +23,44 @@ export const FunBaking: React.FC = () => {
 
     return (
         <>
-            <div className='profileImageDiv' style={{margin: '50px 0px 50px 0px'}}>
-                <h1 id='float'>Baking</h1>
+            <div className='profileImageDiv'>
+                <p className='mainHeadersText' id='float'>Baking</p>
                 <Row>
-                    <Col span={14}>
-                        <h2 id='float2'>
+                    <Col span={24}>
+                        <p className='descriptionText' id='float2'>
                             One of my favorite hobbies is baking for family and friends, and experimenting with new recipes and designs.
                             I also volunteer for the NYC chapter of For Goodness Cakes in my spare time, a charity which assigns bakers
                             to bring cakes or other baked goods to the houses of local underprivileged children for events such as
                             birthdays or graduation. I have also worked as a vendor at a few local pop-up events throughout NYC and
                             partnered with pop-up organizations FAD Market and New Women Space. I would love to one day be a contestant
                             on the Great British Bake Off, but until then, I'll keep improving my skills and trying new recipes!
-                        </h2>
-                        <h2 id='float2'>
+                        </p>
+                        <p className='descriptionText' id='float2'>
                             Follow my <Link to='https://www.instagram.com/macaronandcheesecake/' target="_blank" rel="noopener noreferrer" className='bakingLink'>baking Instagram</Link> or check out my gallery below to see my favorite bakes!
-                        </h2>
+                        </p>
                     </Col>
                 </Row>
                 <br></br>
-                <Row gutter={50} style={{marginBottom:'50px'}} id='float2'>
-                    <Col span={4} className='gutter-row'>
+                <Row gutter={50} id='float2'>
+                    <Col xs={24} sm={24} md={12} lg={6} xl={6} className='gutter-row galleryImg'>
                         <Image
                             src={cakeCereal}
                             className='profileImage'
                         />
                     </Col>
-                    <Col span={4} className='gutter-row'>
+                    <Col xs={24} sm={24} md={12} lg={6} xl={6} className='gutter-row galleryImg'>
                         <Image
                             src={cakeHalloween}
                             className='profileImage'
                         />
                     </Col>
-                    <Col span={4} className='gutter-row'>
+                    <Col xs={24} sm={24} md={12} lg={6} xl={6} className='gutter-row galleryImg'>
                         <Image
                             src={macaronEyeballs}
                             className='profileImage'
                         />
                     </Col>
-                    <Col span={4} className='gutter-row'>
+                    <Col xs={24} sm={24} md={12} lg={6} xl={6} className='gutter-row galleryImg'>
                         <Image
                             src={macaronPink}
                             className='profileImage'
@@ -68,25 +68,25 @@ export const FunBaking: React.FC = () => {
                     </Col>
                 </Row>
                 <Row gutter={50} style={{marginBottom:'50px'}} id='float2'>
-                    <Col span={4} className='gutter-row'>
+                    <Col xs={24} sm={24} md={12} lg={6} xl={6} className='gutter-row galleryImg'>
                         <Image
                             src={cakeRoses}
                             className='profileImage'
                         />
                     </Col>
-                    <Col span={4} className='gutter-row'>
+                    <Col xs={24} sm={24} md={12} lg={6} xl={6} className='gutter-row galleryImg'>
                         <Image
                             src={macaronEaster}
                             className='profileImage'
                         />
                     </Col>
-                    <Col span={4} className='gutter-row'>
+                    <Col xs={24} sm={24} md={12} lg={6} xl={6} className='gutter-row galleryImg'>
                         <Image
                             src={cakeTrans}
                             className='profileImage'
                         />
                     </Col>
-                    <Col span={4} className='gutter-row'>
+                    <Col xs={24} sm={24} md={12} lg={6} xl={6} className='gutter-row galleryImg'>
                         <Image
                             src={handmadeFettuccine}
                             className='profileImage'
@@ -94,25 +94,25 @@ export const FunBaking: React.FC = () => {
                     </Col>
                 </Row>
                 <Row gutter={50} style={{marginBottom:'50px'}} id='float2'>
-                    <Col span={4} className='gutter-row'>
+                    <Col xs={24} sm={24} md={12} lg={6} xl={6} className='gutter-row galleryImg'>
                         <Image
                             src={cakeLeo}
                             className='profileImage'
                         />
                     </Col>
-                    <Col span={4} className='gutter-row'>
+                    <Col xs={24} sm={24} md={12} lg={6} xl={6} className='gutter-row galleryImg'>
                         <Image
                             src={cakeChristmas}
                             className='profileImage'
                         />
                     </Col>
-                    <Col span={4} className='gutter-row'>
+                    <Col xs={24} sm={24} md={12} lg={6} xl={6} className='gutter-row galleryImg'>
                         <Image
                             src={cakeBlue}
                             className='profileImage'
                         />
                     </Col>
-                    <Col span={4} className='gutter-row'>
+                    <Col xs={24} sm={24} md={12} lg={6} xl={6} className='gutter-row galleryImg'>
                         <Image
                             src={macaronEverything}
                             className='profileImage'
@@ -120,25 +120,25 @@ export const FunBaking: React.FC = () => {
                     </Col>
                 </Row>
                 <Row gutter={50} style={{marginBottom:'50px'}} id='float2'>
-                    <Col span={4} className='gutter-row'>
+                    <Col xs={24} sm={24} md={12} lg={6} xl={6} className='gutter-row galleryImg'>
                         <Image
                             src={cakeValentines}
                             className='profileImage'
                         />
                     </Col>
-                    <Col span={4} className='gutter-row'>
+                    <Col xs={24} sm={24} md={12} lg={6} xl={6} className='gutter-row galleryImg'>
                         <Image
                             src={macaronCandyHearts}
                             className='profileImage'
                         />
                     </Col>
-                    <Col span={4} className='gutter-row'>
+                    <Col xs={24} sm={24} md={12} lg={6} xl={6} className='gutter-row galleryImg'>
                         <Image
                             src={cakePinkPurple}
                             className='profileImage'
                         />
                     </Col>
-                    <Col span={4} className='gutter-row'>
+                    <Col xs={24} sm={24} md={12} lg={6} xl={6} className='gutter-row galleryImg'>
                         <Image
                             src={cupcakesPink}
                             className='profileImage'

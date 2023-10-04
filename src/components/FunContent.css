@@ -8,6 +8,19 @@
   border-radius: 25px;
 }
 
+.descriptionText {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #253d4b;
+}
+
+@media (max-width: 500px) {
+  .descriptionText {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+}
+
 .profileImageDiv {
   margin: auto;
   display: flex;
@@ -30,9 +43,19 @@
   color: #487792;
 }
 
+.galleryImg {
+  margin-bottom: 50px;
+}
+
 .sectionH2 {
-  font-size: 60px;
+  font-size: 4.5rem;
   color: white;
+}
+
+@media (max-width: 500px) {
+  .sectionH2 {
+    font-size: 2rem;
+  }
 }
 
 .skillsButton {

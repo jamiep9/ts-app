@@ -39,6 +39,19 @@
   background-color: #d3dce3;
 }
 
+.descriptionText {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #253d4b;
+}
+
+@media (max-width: 500px) {
+  .descriptionText {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+}
+
 h1 {
   font-size: 75px;
   color: #507991;

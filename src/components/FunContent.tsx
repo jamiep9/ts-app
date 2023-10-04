@@ -12,10 +12,10 @@ export const FunContent: React.FC = () => {
 
     return (
         <>
-            <div className='profileImageDiv' style={{margin: '50px 0px 50px 0px'}}>
-                <h1 id='float'>For Fun</h1>
-                <Row gutter={50} style={{marginBottom:'50px'}} id='float2'>
-                    <Col span={7} className='gutter-row'>
+            <div className='profileImageDiv'>
+                <p className='mainHeadersText' id='float'>For Fun</p>
+                <Row gutter={50} id='float2'>
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12} className='gutter-row' style={{marginBottom:'50px'}}>
                         <div 
                             className='container'
                             onClick={() => navigate('/fun/baking')}
@@ -35,7 +35,7 @@ export const FunContent: React.FC = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col span={7} className='gutter-row'>
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12} className='gutter-row' style={{marginBottom:'50px'}}>
                         <div 
                             className='container'
                             onClick={() => navigate('/fun/adventures')}
@@ -56,8 +56,8 @@ export const FunContent: React.FC = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row gutter={50} id='float2'>
-                    <Col span={7} className='gutter-row'>
+                <Row gutter={50} id='float2' style={{marginBottom:'50px'}} >
+                    <Col xs={24} sm={24} md={12} lg={12} xl={12} className='gutter-row'>
                         <div 
                             className='container'
                             onClick={() => navigate('/fun/running')}
