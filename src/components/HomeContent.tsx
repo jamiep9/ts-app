@@ -37,11 +37,11 @@ export const HomeContent: React.FC = () => {
                         computer engineering, electrical engineering, computer science, physics, and UX/UI design. 
                     </p>
                     <p className='parText' id='float2'>
-                        Since graduation, I have worked full-time for 2+ years as a software engineer and have worked in backend,
+                        Since graduation, I have worked full-time for 3+ years as a software engineer and have worked in backend,
                         frontend, and full-stack roles. I'm very proud to have gained a diverse range of experience and consistently
-                        further my growth in engineering and software development. Most recently, I have worked as a solutions engineer
-                        at R3, a client-facing role in which I developed innovative and creative solutions for users of R3's
-                        Corda blockchain.
+                        further my growth in engineering and software development. I am currently working as a customer-facing fullstack
+                        engineer at growing healthcare startup Healthie, developing new solutions for Enterprise-level customers
+                        and collaborating with our Product teams to implement new features based on customer feedback.
                     </p>
                     <p className='mainHeadersText' id='float'>Skills and Technologies</p>
                     <Row id='float2'>

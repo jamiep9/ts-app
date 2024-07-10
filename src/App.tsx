@@ -18,7 +18,7 @@ const App: React.FC = () => (
             width: '100%',
             backgroundColor: '#d3dce3'}}
           >
-            ©2023 Jamie Poole <Link to='https://github.com/jamiep9/ts-app' target="_blank" rel="noopener noreferrer" style={{marginLeft:'15px'}}>View Source Code</Link>
+            ©2024 Jamie Poole <Link to='https://github.com/jamiep9/ts-app' target="_blank" rel="noopener noreferrer" style={{marginLeft:'15px'}}>View Source Code</Link>
           </Footer>
   </div>
 );
