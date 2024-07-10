@@ -17,10 +17,34 @@ export const ExperienceContent: React.FC = () => {
                         hoverable
                         bordered={false} 
                         id='float2' 
+                        title={<h2>Healthie  <span className='expCardHeader'>New York, NY</span></h2>}
+                        onClick={() => window.open('https://www.gethealthie.com/','_blank', 'rel=noopener noreferrer')}
+                    >
+                        <h3>Fullstack Engineer, Customers <i className='expCardDates'>December 2023 - Present</i></h3>
+                        <ul>
+                            <li>
+                                Leveraged knowledge of Rails, ActiveRecord, React, and GraphQL to troubleshoot and resolve complex issues with Healthie's web and mobile application
+                            </li>
+                            <li>
+                                Collaborated with various Enterprise-level customers to design and build product solutions using Healthie's API, ensuring timely communication and resolution
+                            </li>
+                            <li>
+                                Collaborated with product teams to develop new features as well as enhance existing platform functionality and user experience based on customer feedback
+                            </li>
+                            <li>
+                                Performed unit and feature tests on new implementations to ensure quality user experience and functionality
+                            </li>
+                        </ul>
+                    </Card>
+                    <Card 
+                        className='honorsCard' 
+                        hoverable
+                        bordered={false} 
+                        id='float2' 
                         title={<h2>R3  <span className='expCardHeader'>New York, NY</span></h2>}
                         onClick={() => window.open('https://r3.com/','_blank', 'rel=noopener noreferrer')}
                     >
-                        <h3>Frontend Solutions Engineer <i className='expCardDates'>August 2023</i></h3>
+                        <h3>Frontend Solutions Engineer <i className='expCardDates'>August 2023 - September 2023</i></h3>
                         <ul>
                             <li>
                                 Designed and developed client-focused projects that met criteria and were 
